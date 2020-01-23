@@ -1,0 +1,4 @@
+name = 'Юрий'
+username = 'deksbull'
+age = 41
+print(name,username,age)
