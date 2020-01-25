@@ -6,3 +6,32 @@ name_user = input('Введите свое имя: ')
 print(name_user)
 age_user = int(input('Введите свой возраст: '))
 print(age_user)
+
+#задание 2 время из секунд в формат чч:мм:сс
+
+#time_format =
+# time = int(input('Введите время в сукундах: '))
+# print('Вы ввели число: ', time)
+# print('Ваше число в формате времени: чч:мм:сс ')
+# time_h = int(time/3600)
+# time_hi = time%3600
+# time_m = int(time_hi/60)
+# time_s = time - (time_h*3600) - (time_m*60)
+#
+# print(f'чч:{time_h} мм:{time_m:.0f} сс:{time_s:.0f}')
+
+# задание 3
+
+# name_user = input('Введите число: ')
+# print(f'Я найду сумму числел: {name_user} + {name_user*2} + {name_user*3} ')
+# print(int(name_user) + int(name_user*2) + int(name_user*3))
+
+#задание 4
+number_user = input('Введите целое положительное число: ')
+print('Вы ввели число: ', number_user)
+number_max = str(number_user)
+max_digit = -1
+for i in range(len(number_max)):
+    if max_digit < int(number_max[i]):
+        max_digit = int(number_max[i])
+        print(max_digit)
